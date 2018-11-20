@@ -10,7 +10,7 @@ CONTAINER_DATA="$1"
 if [ -z $CONTAINER_DATA  ]
   then
     echo "you need to provide a directory for container data"
-    echo "Example: /storage/container_data/ "; exit
+    echo "Example: $0 /storage/container_data/ "; exit
 fi
 
 APP_NAME="youtube-dl-digest"
