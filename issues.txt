@@ -1,0 +1,3 @@
+needs to have error for failed videos
+  maybe if instead of on erro rcode, it looks for .part
+the log file for each run is deleted when it runs again. not bad, but not great either. 
