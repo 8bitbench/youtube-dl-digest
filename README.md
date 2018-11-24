@@ -23,4 +23,3 @@ You can build this local by running the build.sh command.
 Once you have built or pulled the image from docker hub you can setup your system with the
 youtube-dl_digest-setup.sh script that will move everything into place. 
 
-
