@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#resources:
+#https://sessionbuddy.com/data-location/
+#https://sessionbuddy.com/chrome-profile-location/
+#chrome://version/
+#/home/username/.config/google-chrome/profileName
+
+#https://sqlite.org/cli.html
+
+DATE=$(date  +%Y%m%d)
+cp /home/lint/.config/chromium/Default/databases/chrome-extension_edacconmaakjimmfgnblocblbcdcpbko_0/1 ./sessionBuddy_backup_$DATE.sqlLite
+
